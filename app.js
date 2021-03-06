@@ -8,7 +8,7 @@ const color = document.querySelector('.color')
 btn.addEventListener('click',function(){
 	let randomNumber=getRandomNumber();
 	body.style.backgroundColor = colors[randomNumber]; 
-
+	color.innerText=colors[randomNumber];
 })
 
 
